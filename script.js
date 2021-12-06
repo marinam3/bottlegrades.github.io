@@ -41,7 +41,10 @@ function grades() {
     else if (results >= 40) {
         document.getElementById("main").innerHTML += "Your result is " + results + ". Your grade is E.";
     }
-    else {
+    else if (results < 40) {
         document.getElementById("main").innerHTML += "Your result is " + results + ". Your grade is F.";
+    }
+    else {
+        document.getElementById("main").innerHTML += "Incorrect details, please try again";
     }
 }
