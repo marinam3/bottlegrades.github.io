@@ -5,9 +5,9 @@
 
 function bottles() {
     for (i = 99; i >= 1; i = i - 1) {
-        document.getElementById("main").innerHTML += i + " bottles of beer on the wall " + i + " bottles of beer. Take one down and pass it around " + (i - 1) + " bottles of beer on the wall.";
+        document.getElementById("main").innerHTML += "\n" + i + " bottles of beer on the wall " + i + " bottles of beer. Take one down and pass it around " + (i - 1) + " bottles of beer on the wall.";
         if (i == 1) {
-            document.getElementById("main").innerHTML += i + " bottle of beer on the wall " + i + " bottle of beer. Take one down and pass it around " + (i - 1) + " bottles of beer on the wall.";
+            document.getElementById("main").innerHTML += "\n" + i + " bottle of beer on the wall " + i + " bottle of beer. Take one down and pass it around " + (i - 1) + " bottles of beer on the wall.";
         }
     }
 }
